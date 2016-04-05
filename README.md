@@ -1,1 +1,1 @@
-# twitter-graph
+# twitter-graphThis project will calculate the average degree of all hashtags inside a live twitter feed. It treats each hashtags as nodes. FOr more information, see [Insight Data Engineering](https://github.com/InsightDataScience/coding-challenge)## Usage./run.sh in the terminal. Make sure python2.7 is installed. No external libraries other than the standard libraries are used.
