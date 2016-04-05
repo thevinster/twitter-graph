@@ -51,7 +51,9 @@ function setup_testing_input_output {
 
   rm -r ${TEST_OUTPUT_PATH}/tweet_input/*
   rm -r ${TEST_OUTPUT_PATH}/tweet_output/*
+ 
   cp -r ${GRADER_ROOT}/tests/${test_folder}/tweet_input/tweets.txt ${TEST_OUTPUT_PATH}/tweet_input/tweets.txt
+  cp -r ${GRADER_ROOT}/tests/${test_folder}/tweet_output/output.txt ${TEST_OUTPUT_PATH}/tweet_output/output.txt
 }
 
 function compare_outputs {
